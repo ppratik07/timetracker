@@ -15,16 +15,16 @@ namespace ContractorManagementBackend.Models
     {
         [Key]
         [StringLength(50)]
-        public string Id { get; set; }
+        public string? Id { get; set; }
         [Required]
         [StringLength(200)]
-        public string ProjectName { get; set; }
+        public string? ProjectName { get; set; }
         [Required]
         [StringLength(50)]
-        public string CostCenter { get; set; }
+        public string? CostCenter { get; set; }
         [Required]
         [StringLength(100)]
-        public string Category { get; set; }
+        public string? Category { get; set; }
         [Required]
         [Column(TypeName = "decimal(8,2)")]
         public decimal EstimatedHours { get; set; }
