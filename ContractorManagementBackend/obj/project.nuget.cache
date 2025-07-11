@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "HfeyleKwTtA=",
+  "success": true,
+  "projectFilePath": "/Users/pratikprajapati/Downloads/Github/timetracker/ContractorManagementBackend/ContractorManagementBackend.csproj",
+  "expectedPackageFiles": [
+    "/Users/pratikprajapati/.nuget/packages/microsoft.aspnetcore.openapi/9.0.7/microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
+    "/Users/pratikprajapati/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

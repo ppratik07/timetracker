@@ -1,0 +1,6 @@
+@ContractorManagementBackend_HostAddress = http://localhost:5109
+
+GET {{ContractorManagementBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
