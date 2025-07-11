@@ -1,0 +1,101 @@
+# .NET Core build and runtime files
+bin/
+obj/
+*.csproj.user
+*.pdb
+*.exe
+*.dll
+*.suo
+*.cache
+*.sln.docstates
+*.user
+*.userosscache
+*.suo
+*.sln
+*.sln.iml
+*.DotSettings.user
+
+# Entity Framework Core migrations (optional, see note below)
+**/Migrations/
+
+# Visual Studio Code specific files
+.vscode/
+*.code-workspace
+
+# User-specific files and settings
+*.user
+*.userprefs
+
+# Dependency directories
+packages/
+nuget.exe
+*.nupkg
+
+# Logs and temporary files
+*.log
+*.logs
+logs/
+*.tmp
+*.temp
+*.bak
+*.cache
+*.swp
+
+# Sensitive configuration files
+appsettings.json
+appsettings.*.json
+secrets.json
+
+# Database-related files
+*.mdf
+*.ldf
+*.sdf
+*.bak
+
+# Environment-specific files
+.env
+.env.local
+.env.*.local
+
+# macOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+desktop.ini
+
+# Rider IDE (if used)
+.idea/
+*.iml
+
+# Package manager lock files (optional, depending on preference)
+*.lock.json
+
+# Test results
+TestResults/
+*.trx
+*.xml
+
+# Coverage reports
+*.coverage
+*.coveragexml
+
+# Publish and deployment output
+publish/
+*.pubxml
+*.pubxml.user
+
+# Azure-specific files (if applicable)
+*.azurePipelines.yml
+*.azure-pipelines.yml
+
+# Docker-related files (if applicable)
+Dockerfile.user
+*.dockerignore
+docker-compose*.yml
+
+# Miscellaneous
+*.bak
+*.swp
+*.swo
+*~
