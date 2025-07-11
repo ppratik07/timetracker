@@ -54,7 +54,7 @@ namespace ContractorManagement.Controllers
                 claims: claims,
                 expires: DateTime.Now.AddDays(1),
                 signingCredentials: creds);
-
+            //Serialize Token to String (Base64-encoded header, payload, and signature)
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
 
